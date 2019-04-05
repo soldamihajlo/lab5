@@ -47,7 +47,7 @@ void print(char *str);
 int main()
 {
     init_platform();
-    unsigned char string_s[] = "LPRS 2\n";
+    unsigned char string_s[] = "MIHAJLO";
 
     VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x00, 0x0);// direct mode   0
     VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0x3);// display_mode  1
@@ -61,9 +61,27 @@ int main()
 
     clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
     clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
-    draw_square(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
     set_cursor(350);
-    print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, string_s, 6);
+
+
+    int i,dir=1,j,k;
+
+    clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+    clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+
+    while(1){
+    	for(j=0;j<400;j++){
+    		for(i=0;i<17;i++){
+
+    		for(k=0;k<1000000;k++);
+    		draw_square(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, j, i);
+    		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, string_s, 7,j,i);
+
+    		}
+    		j+=20;
+    	}
+    }
+
 
 
     return 0;

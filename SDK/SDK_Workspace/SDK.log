@@ -137,3 +137,43 @@
 09:39:04.953 INFO  - Refreshed build settings on project hello_world 
 10:33:44.745 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:01:28.607 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+11:01:29.276 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:29.288 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:29.323 WARN  - Unable to determine location of documentation for OS . 
+11:01:29.326 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:29.332 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:46.078 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:48.828 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:48.981 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:48.988 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:48.998 ERROR - Unable to read in MSS file D:\Ra152-2016\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:05:51.375 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:09:49.848 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:13:28.572 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:13:43.263 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: MicroBlaze is under RESET. Check if the Reset input to MicroBlaze and its Bus Interfaces are connected properly
+    UNABLE to STOP MicroBlaze
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:14:35.147 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:14:45.151 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:14:55.848 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: MicroBlaze is under RESET. Check if the Reset input to MicroBlaze and its Bus Interfaces are connected properly
+    UNABLE to STOP MicroBlaze
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:15:48.036 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:15:53.089 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
