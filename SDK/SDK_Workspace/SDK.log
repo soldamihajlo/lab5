@@ -177,3 +177,283 @@ Failed to Scan JTAG Chain
 
 11:15:48.036 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
 11:15:53.089 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:16:19.160 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: MicroBlaze is under RESET. Check if the Reset input to MicroBlaze and its Bus Interfaces are connected properly
+    UNABLE to STOP MicroBlaze
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:17:18.707 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:17:28.478 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: MicroBlaze is under RESET. Check if the Reset input to MicroBlaze and its Bus Interfaces are connected properly
+    UNABLE to STOP MicroBlaze
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:18:40.843 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:32:31.294 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:34:50.367 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:35:30.588 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:36:44.350 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:37:28.397 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:49:51.468 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:50:10.258 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:50:44.671 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:50:51.971 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:51:54.223 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:51:57.023 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:52:43.374 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:52:56.937 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:54:42.086 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:54:52.339 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:55:05.792 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:56:06.357 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:57:13.910 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:57:17.210 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:59:25.766 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:59:29.866 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:00:40.433 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:01:17.888 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:01:45.936 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:01:49.736 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:02:50.808 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:17.755 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:36.512 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:02.286 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:50.938 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:05:11.082 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:05:30.432 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:07:19.873 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:07:36.328 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:07:50.390 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:10:28.845 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:15:21.738 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:15:25.637 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:16:49.610 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:19:45.056 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+12:19:45.061 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:55:59.820 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:56:08.137 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:57:07.832 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:57:12.764 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:57:19.763 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:57:35.022 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:57:58.064 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:58:07.363 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:58:30.461 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:58:40.260 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:59:00.500 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:59:22.766 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:59:32.461 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:59:43.461 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:59:54.661 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:00:18.815 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:01:42.663 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:02:05.634 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:03:18.593 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:03:45.395 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:04:00.208 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:10:17.627 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:14:40.030 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:17:21.480 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:17:41.188 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:18:58.557 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:19:02.057 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:20:29.066 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:20:57.267 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:21:04.475 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:21:15.262 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:21:28.366 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:22:12.557 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:22:59.870 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:26:17.638 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:26:35.804 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:26:47.504 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:27:04.690 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:28:12.028 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:30:42.197 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:34:29.081 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:34:40.281 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:34:58.953 INFO  - FPGA configured successfully with bitstream "D:/Ra152-2016/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:36:40.282 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:37:43.371 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:37:55.278 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:38:26.765 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:40:27.349 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:42:12.730 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:43:16.298 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:44:00.798 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:44:18.791 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:12.612 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:23.711 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:40.085 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:58:11.552 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:58:40.450 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:00:48.148 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:01:04.634 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:01:36.725 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:02:38.709 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:27.714 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:36.300 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:03:45.382 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:31.150 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:05:12.032 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:05:32.313 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:05:44.912 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:26.068 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+12:09:26.092 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+12:09:26.093 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
